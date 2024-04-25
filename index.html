@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Movie Subtitle - Search Engine</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #6A11CB, #2575FC); /* Gradient background with shades of blue and purple */
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            color: #fff; /* White text color */
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 100px auto;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Increased shadow effect */
+        }
+
+        h1 {
+            margin-bottom: 30px;
+        }
+
+        input[type="text"] {
+            width: calc(100% - 22px); /* Adjusted width */
+            padding: 15px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+            color: #333; /* Dark text color */
+        }
+
+        button[type="submit"] {
+            padding: 15px 30px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            background-color: #3498db; /* Blue button color */
+            color: #fff;
+            cursor: pointer;
+            transition: background-color 0.3s ease; /* Transition for background color change */
+        }
+
+        button[type="submit"]:hover {
+            background-color: #2980b9; /* Darker blue color on hover */
+        }
+
+        /* Styling for link */
+        a {
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #f39c12; /* Yellow color on hover */
+        }
+
+        /* Author styles */
+        .author {
+            color: #ccc;
+            font-size: 14px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Movie Subtitle - Search Engine</h1>
+        <form method="POST">
+            <input type="text" name="search_text" placeholder="Enter Movie Subtitle">
+            <button type="submit">Search</button>
+        </form>
+        <div class="author">Created by Sonu Vikas</div>
+    </div>
+</body>
+</html>
